@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "apollo-server-express": "^2.9.16",
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "mongoose": "^5.8.7",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}
